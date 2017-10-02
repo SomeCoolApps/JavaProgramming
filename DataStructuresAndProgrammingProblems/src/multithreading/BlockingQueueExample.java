@@ -51,7 +51,7 @@ public class BlockingQueueExample {
 			if(random.nextInt()%2==0)
 				i = queue.take();
 			
-			System.out.println("getting value "+i +"queue Size: "+queue.size());
+			System.out.println("Value: "+i +" \t queue Size: "+queue.size());
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
